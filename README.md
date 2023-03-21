@@ -4,6 +4,8 @@ A plugin to setup proxying to a running Urbit on a vite devserver correctly.
 The plugin also inserts the correct script tags, so that window.ship and
 window.desk are loaded correctly
 
+*Thanks to @liam-fitzgerald for starting this*
+
 ## Usage
 
 ```typescript

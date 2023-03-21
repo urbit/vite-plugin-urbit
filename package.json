@@ -1,13 +1,13 @@
 {
   "name": "@urbit/vite-plugin-urbit",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "description": "A plugin to setup proxying from a vite devserver to an Urbit ship",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liam-fitzgerald/vite-plugin-urbit.git"
+    "url": "git+https://github.com/urbit/vite-plugin-urbit.git"
   },
   "files": [
     "dist",
@@ -20,8 +20,9 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "author": "Tlon Corporation",
+  "author": "Urbit Foundation",
   "keywords": [
+    "urbit",
     "vite-plugin"
   ],
   "license": "MIT",
@@ -32,9 +33,9 @@
     "vite": "^4.2.1"
   },
   "bugs": {
-    "url": "https://github.com/liam-fitzgerald/vite-plugin-urbit/issues"
+    "url": "https://github.com/urbit/vite-plugin-urbit/issues"
   },
-  "homepage": "https://github.com/liam-fitzgerald/vite-plugin-urbit#readme",
+  "homepage": "https://github.com/urbit/vite-plugin-urbit#readme",
   "dependencies": {
     "vite-plugin-html-config": "^1.0.11",
     "vite-plugin-rewrite-all": "^1.0.1"
