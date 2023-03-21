@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "lib": ["ES2021", "DOM"],
+    "declaration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "types": ["node"]
+  },
+  "files": ["./src/index.ts"]
+}
