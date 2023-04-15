@@ -1,6 +1,11 @@
 import htmlPlugin from "vite-plugin-html-config";
 import rewriteAll from "vite-plugin-rewrite-all";
 import { ProxyOptions } from "vite";
+import dns from 'dns'
+
+if ('setDefaultResultOrder' in dns) {
+  dns.setDefaultResultOrder('ipv4first')
+}
 
 export interface UrbitPluginConfig extends ProxyOptions {
   /**
