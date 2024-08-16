@@ -1,7 +1,7 @@
-import htmlPlugin from "vite-plugin-html-config";
-import rewriteAll from "vite-plugin-rewrite-all";
+import { htmlPlugin } from "./htmlPlugin";
+import { rewriteAll } from './rewriteAll';
 import { ProxyOptions } from "vite";
-import dns from 'dns'
+import dns from "dns";
 
 if ('setDefaultResultOrder' in dns) {
   dns.setDefaultResultOrder('ipv4first')
